@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: yellow;
+}
+
+h1 {
+    text-align: center;    
+}
+
+.buscador{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20PX;
+    margin-top: 50px;
+    
+}
+.img img{
+    height: 300px;
+    width: 300PX;
+}
