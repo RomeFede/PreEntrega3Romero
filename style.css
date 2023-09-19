@@ -171,8 +171,81 @@ h1 {
 }
 
 .centrarcompra{
-    margin-left: 310px;
+    margin-left: 290px;
     display: flex;
     align-items: center;
     text-align: center;
 }
+
+/*LOGIN*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.loginbody {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(./imagenes/back.jpg);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    text-align: center;
+    padding: 20px 25px;
+    box-shadow: 0 5px 10px rgba(209, 231, 4, 0.7);
+}
+
+form .title {
+    color: #252525;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+form label {
+    margin-bottom: 35px;
+}
+
+form label .fa-solid {
+    font-size: 20px;
+    color: #ecf00a;
+    margin-right: 10px;
+}
+
+form label input {
+    outline: none;
+    border: none;
+    color: #252525;
+    border-bottom: solid 1px #e67f09;
+    padding: 0 5px;
+    font-size: 18px;
+}
+
+form label input::placeholder {
+    color: rgba(37, 37, 37, 0.5);
+}
+
+
+form .link {
+    color: #252525;
+    margin-bottom: 15px;
+}
+
+form button {
+    color: #fff;
+    border: none;
+    background: linear-gradient(to right, #ffaf03, #ff0707);
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/*
